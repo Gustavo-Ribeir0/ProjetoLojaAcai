@@ -1,0 +1,302 @@
+*{
+margin: 0;
+padding: 0;
+font-family: roboto;
+}
+
+#efeito_menu{
+display:flex;
+justify-content:center;
+height: 120px;
+border:1px solid;
+}
+
+#menu{
+background-color: rgb(36, 36, 36);
+height: 150px;
+width: 100%;
+display:flex;
+justify-content: center;
+align-items: flex-end;
+position:fixed;
+z-index: 2;
+}
+
+#menu img{
+width: 25%;
+position: relative;
+top: 50px;
+}
+
+#menu ul {
+text-decoration: none;
+list-style: none;  
+position:relative;
+bottom: 65px;
+}
+
+#menu ul li{
+display: inline;
+font-size: 20px;
+color: white;
+padding: 40px;
+}
+
+#produto1{
+width: 200px;
+height: 200px;
+position: absolute;
+right: 0px;
+bottom: 0px;
+display:flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+flex-wrap: wrap;
+background-color: rgb(255, 255, 255);
+}
+
+#produto1 img{
+width: 100%;
+height: auto;
+}
+
+#produto2{
+width: 200px;
+height: 200px;
+position: absolute;
+left: 0px;
+ bottom: 0px;
+display:flex;
+justify-content:center;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+background-color: rgb(255, 255, 255);
+}
+
+#produto2 img{
+width: 100%;
+height: auto;
+}
+
+#catalogo1{
+width: 100%;
+height: 50%;
+position: relative;
+bottom: 50px;
+right: 20px;
+}
+
+#catalogo1 p{
+width: 500px;
+font-size:20px;
+color: rgb(253, 218, 218);
+margin: 50px;
+
+}
+
+#catalogo1 p span, #catalogo2 p span{
+color: rgb(42, 255, 5);
+}
+
+
+
+#catalogo2{
+width: 100%;
+height: 50%;
+display:flex;
+justify-content:flex-end;
+position: relative;
+bottom: 50px;
+right: 20px;
+}
+
+#catalogo2 p{
+width: 500px;
+font-size:20px;
+color: rgb(253, 218, 218);
+margin: 70px;
+}
+
+
+
+#informacoesProdutos{
+display:flex;
+flex-direction: column;
+width: 60%;
+height: 400px;
+position:relative;
+left: 50px;
+top: 80px;
+}
+
+
+
+#conteudo{
+padding-top: 30px;
+color: white;
+margin: 0px 30px;
+width: 400px;
+height: 460px;
+position: relative;
+background-color: rgb(46, 0, 46);
+display:flex;
+flex-direction: column;
+align-items:center;
+flex-wrap: wrap;
+}
+
+#conteudo h2{
+margin-top: 20px;
+font-size: 30px;
+width: 350px;
+}
+
+#saboresDaSemana{
+margin-bottom: 50px;
+}
+
+#conteudo p{
+width: 350px;
+font-size: 20px;
+}
+
+#banner{
+display:flex;
+justify-content:center;
+align-items:flex-start;
+height: 100%;
+height: 250px;
+margin: 28px 0 0 auto;
+}
+
+#banner img{
+width: 100%;
+height:100%;
+}
+
+#informacoes{
+display:flex;
+}
+
+#tituloForm{
+width: 100%;
+display:flex;
+justify-content:center;
+}
+
+#tituloForm h2{
+margin-top: 40px;
+}
+
+#pesquisa{
+width: 100%;
+height: 500px;
+margin: 0 auto;
+background-color: rgb(59, 0, 66);
+}
+
+#formularioCheck{
+display:flex;
+justify-content:center;
+}
+
+#formularioTexto{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items: center;
+width: 100%;
+}
+
+.formtext{
+width: 400px;
+padding: 5px;
+}
+
+#submit{
+margin-top: 10px;
+width: 120px;
+padding: 5px;
+background-color: rgb(88, 0, 88);
+border-radius: 5px;
+color: white;
+}
+
+.font{
+font-size: 20px;
+font-weight: 600;
+
+}
+
+label, input{
+font-size: 16px;
+margin-top: 20px;
+height: 20px;
+color: white;
+}
+
+#tituloForm h2{
+color: white;
+}
+
+footer {
+margin-top: 56px;
+position:relative;
+display:flex;
+flex-direction: column;
+width: 100%;
+height: 300px;
+}
+
+footer #bannerFooter{
+width: 100%;
+height: 300px;
+position: absolute;
+top: 1px;
+}
+
+footer #logoFooter{
+width: 150px;
+height: 150px;
+position: absolute;
+bottom: 0px;
+left: 180px;
+}
+
+#menuFooter{
+right: 210px;
+width: 80px;
+height: 200px;
+position: absolute;
+display:flex;
+flex-direction: column;
+justify-content: center;
+top: 55px;
+color: white;
+}
+
+#menuFooter ul li, #iconesFooter ul li{
+margin-bottom: 10px;
+font-size: 18px;
+text-decoration: none;
+list-style:none;
+}
+
+#menuFooter ul li{
+margin-bottom: 23px;
+}
+
+#iconesFooter{
+position: absolute;
+top: 60px;
+right: 293px;
+width: 50px;
+height:auto;
+}
+
+#iconesFooter img{
+width: 32px;
+height: 30px;
+}
